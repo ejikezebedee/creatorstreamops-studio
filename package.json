@@ -1,0 +1,52 @@
+{
+  "name": "creatorstreamops-studio",
+  "version": "1.0.0",
+  "description": "Local-first TikTok creator workflow, LIVE planning, analytics tracking, and reporting studio.",
+  "type": "module",
+  "main": "server/index.ts",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "server": "tsx server/index.ts",
+    "start": "tsx server/index.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsx scripts/lint-static.ts",
+    "format": "prettier --write .",
+    "test": "vitest run",
+    "build": "tsc -p tsconfig.build.json && vite build",
+    "scan:secrets": "tsx scripts/scan-secrets.ts"
+  },
+  "keywords": [
+    "tiktok",
+    "creator-tools",
+    "livestream",
+    "content-calendar",
+    "typescript",
+    "react",
+    "express"
+  ],
+  "author": "CreatorStreamOps Studio",
+  "license": "MIT",
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "date-fns": "^4.1.0",
+    "express": "^5.1.0",
+    "jsdom": "^26.1.0",
+    "lucide-react": "^0.468.0",
+    "prettier": "^3.6.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "uuid": "^11.1.0",
+    "vitest": "^3.2.3",
+    "vite": "^7.0.0",
+    "@types/cookie-parser": "^1.4.8",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.3",
+    "@types/react": "^19.1.7",
+    "@types/react-dom": "^19.1.6",
+    "zod": "^3.25.67"
+  }
+}
