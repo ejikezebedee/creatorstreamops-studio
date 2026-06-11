@@ -1,5 +1,7 @@
 # CreatorStreamOps Studio
 
+![CreatorStreamOps Studio product cover](docs/assets/product-cover.png)
+
 CreatorStreamOps Studio is a local-first full-stack operations platform for TikTok creators, TikTok LIVE streamers, TikTok Shop sellers, musicians, educators, influencers, agencies, small businesses, and community groups.
 
 It helps creators plan short-form videos, write structured scripts, draft captions and hashtags, schedule content, prepare livestream run-of-show plans, organize moderation checklists, track analytics manually, and generate Markdown reports after campaigns and LIVE sessions.
